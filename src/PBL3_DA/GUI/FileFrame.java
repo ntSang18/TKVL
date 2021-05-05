@@ -706,11 +706,11 @@ public class FileFrame {
 				panel_6.setVisible(true);
 			}
 		});
-		btnNewButton_1_4.setForeground(Color.WHITE);
-		btnNewButton_1_4.setFont(new Font("Tahoma", Font.BOLD, 15));
-		btnNewButton_1_4.setBorder(null);
-		btnNewButton_1_4.setBackground(new Color(30, 144, 255));
-		btnNewButton_1_4.setBounds(0, 380, 180, 76);
-		panel.add(btnNewButton_1_4);
+		btnNewButton_4.setForeground(Color.WHITE);
+		btnNewButton_4.setFont(new Font("Tahoma", Font.BOLD, 15));
+		btnNewButton_4.setBorder(null);
+		btnNewButton_4.setBackground(new Color(30, 144, 255));
+		btnNewButton_4.setBounds(0, 380, 180, 76);
+		panel.add(btnNewButton_4);
 	}
 }
