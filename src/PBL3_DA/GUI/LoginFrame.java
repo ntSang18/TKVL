@@ -21,8 +21,8 @@ import javax.swing.border.BevelBorder;
 public class LoginFrame {
 
 	private JFrame LoginFrame;
-	private JTextField textField;
-	private JTextField textField_1;
+	private JTextField txtDangnhap;
+	private JTextField txtMatkhau;
 
 	/**
 	 * Launch the application.
@@ -64,52 +64,52 @@ public class LoginFrame {
 		LoginFrame.getContentPane().add(panel);
 		panel.setLayout(null);
 		
-		JLabel lblNewLabel = new JLabel("\u0110\u0103ng nh\u1EADp t\u00E0i kho\u1EA3n");
-		lblNewLabel.setFont(new Font("Calibri", Font.BOLD, 21));
-		lblNewLabel.setBounds(115, 94, 185, 35);
-		panel.add(lblNewLabel);
+		JLabel lbDangnhap = new JLabel("\u0110\u0103ng nh\u1EADp t\u00E0i kho\u1EA3n");
+		lbDangnhap.setFont(new Font("Calibri", Font.BOLD, 21));
+		lbDangnhap.setBounds(115, 94, 185, 35);
+		panel.add(lbDangnhap);
 		
-		JLabel lblNewLabel_1 = new JLabel("T\u00EAn \u0111\u0103ng nh\u1EADp");
-		lblNewLabel_1.setHorizontalAlignment(SwingConstants.RIGHT);
-		lblNewLabel_1.setFont(new Font("Calibri", Font.BOLD, 12));
-		lblNewLabel_1.setBounds(28, 147, 85, 20);
-		panel.add(lblNewLabel_1);
+		JLabel lbTendangnhap = new JLabel("T\u00EAn \u0111\u0103ng nh\u1EADp");
+		lbTendangnhap.setHorizontalAlignment(SwingConstants.RIGHT);
+		lbTendangnhap.setFont(new Font("Calibri", Font.BOLD, 12));
+		lbTendangnhap.setBounds(28, 147, 85, 20);
+		panel.add(lbTendangnhap);
 		
-		JLabel lblNewLabel_1_1 = new JLabel("M\u1EADt kh\u1EA9u");
-		lblNewLabel_1_1.setHorizontalAlignment(SwingConstants.RIGHT);
-		lblNewLabel_1_1.setFont(new Font("Calibri", Font.BOLD, 12));
-		lblNewLabel_1_1.setBounds(28, 192, 85, 20);
-		panel.add(lblNewLabel_1_1);
+		JLabel lbMatkhau = new JLabel("M\u1EADt kh\u1EA9u");
+		lbMatkhau.setHorizontalAlignment(SwingConstants.RIGHT);
+		lbMatkhau.setFont(new Font("Calibri", Font.BOLD, 12));
+		lbMatkhau.setBounds(28, 192, 85, 20);
+		panel.add(lbMatkhau);
 		
-		textField = new JTextField();
-		textField.setBounds(135, 140, 246, 30);
-		panel.add(textField);
-		textField.setColumns(10);
+		txtDangnhap = new JTextField();
+		txtDangnhap.setBounds(135, 140, 246, 30);
+		panel.add(txtDangnhap);
+		txtDangnhap.setColumns(10);
 		
-		textField_1 = new JTextField();
-		textField_1.setColumns(10);
-		textField_1.setBounds(135, 182, 246, 30);
-		panel.add(textField_1);
+		txtMatkhau = new JTextField();
+		txtMatkhau.setColumns(10);
+		txtMatkhau.setBounds(135, 182, 246, 30);
+		panel.add(txtMatkhau);
 		
-		JButton btnNewButton = new JButton("\u0110\u0103ng nh\u1EADp");
-		btnNewButton.setForeground(SystemColor.desktop);
-		btnNewButton.setBackground(new Color(220, 20, 60));
-		btnNewButton.setBorder(null);
-		btnNewButton.setFont(new Font("Calibri", Font.BOLD, 15));
-		btnNewButton.setBounds(135, 235, 105, 30);
-		panel.add(btnNewButton);
+		JButton btnDangnhap = new JButton("\u0110\u0103ng nh\u1EADp");
+		btnDangnhap.setForeground(SystemColor.desktop);
+		btnDangnhap.setBackground(new Color(220, 20, 60));
+		btnDangnhap.setBorder(null);
+		btnDangnhap.setFont(new Font("Calibri", Font.BOLD, 15));
+		btnDangnhap.setBounds(135, 235, 105, 30);
+		panel.add(btnDangnhap);
 		
-		JButton btnThot = new JButton("Tho\u00E1t");
-		btnThot.setBackground(new Color(230, 230, 250));
-		btnThot.setForeground(new Color(220, 20, 60));
-		btnThot.setBorder(null);
-		btnThot.setFont(new Font("Calibri", Font.BOLD, 15));
-		btnThot.setBounds(276, 237, 105, 30);
-		panel.add(btnThot);
+		JButton btnThoat = new JButton("Tho\u00E1t");
+		btnThoat.setBackground(new Color(230, 230, 250));
+		btnThoat.setForeground(new Color(220, 20, 60));
+		btnThoat.setBorder(null);
+		btnThoat.setFont(new Font("Calibri", Font.BOLD, 15));
+		btnThoat.setBounds(276, 237, 105, 30);
+		panel.add(btnThoat);
 		
 		ImageIcon LoginIcon = new ImageIcon("C:\\Users\\minht\\Java\\PBL3_DA\\src\\PBL3_DA\\IMAGE\\person_80px.png");
-		JLabel lblNewLabel_2 = new JLabel(LoginIcon);
-		lblNewLabel_2.setBounds(173, 11, 67, 80);
-		panel.add(lblNewLabel_2);
+		JLabel lbIcon = new JLabel(LoginIcon);
+		lbIcon.setBounds(173, 11, 67, 80);
+		panel.add(lbIcon);
 	}
 }
